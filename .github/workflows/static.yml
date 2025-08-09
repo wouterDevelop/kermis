@@ -34,7 +34,8 @@ jobs:
         run: npm install
 
       - name: Build Angular app
-        run: npm run build --output-path=dist/kermisoverlay --base-href=/kermis/browser/
+
+        run: npm run build -- --output-path=dist/kermisoverlay --base-href=/kermis/browser/
         # Replace 'my-app' with your Angular project folder
         # Replace '/my-angular-site/' with your repo name or path (note trailing slash)
 
