@@ -1,0 +1,65 @@
+[
+  {
+    "name": "DJ Pallee",
+    "image": "images/artists/pallee.png",
+    "venueLogo": "images/logo.png",
+    "date": "Alle dagen!",
+    "timeOfDay": ""
+  },
+  {
+    "name": "Sven Versteeg",
+    "image": "images/artists/svenversteeg.png",
+    "venueLogo": "images/logo.png",
+    "date": "Zaterdag",
+    "timeOfDay": "Avond"
+  },
+  {
+    "name": "Leen Zijlmans",
+    "image": "images/artists/leenzijlmans.jpg",
+    "venueLogo": "images/logo.png",
+    "date": "Zondag",
+    "timeOfDay": "Middag"
+  },
+  {
+    "name": "Jimmy van Zetel",
+    "image": "images/artists/jimmy.jpg",
+    "venueLogo": "images/logo.png",
+    "date": "Zondag",
+    "timeOfDay": "Avond"
+  },
+  {
+    "name": "William Burg",
+    "image": "images/artists/William.jpg",
+    "venueLogo": "images/logo.png",
+    "date": "Zondag",
+    "timeOfDay": "Middag"
+  },
+  {
+    "name": "Jack van Raamsdonk",
+    "image": "images/artists/jack.webp",
+    "venueLogo": "images/logo.png",
+    "date": "Maandag",
+    "timeOfDay": "Middag"
+  },
+  {
+    "name": "Henk Bernard",
+    "image": "images/artists/henk.jpg",
+    "venueLogo": "images/logo.png",
+    "date": "Maandag",
+    "timeOfDay": "Avond"
+  },
+  {
+    "name": "Pascal Redeker",
+    "image": "images/artists/pascal.jpg",
+    "venueLogo": "images/logo.png",
+    "date": "Dinsdag",
+    "timeOfDay": "Avond"
+  },
+  {
+    "name": "John de Bever",
+    "image": "images/artists/john.jpg",
+    "venueLogo": "images/logo.png",
+    "date": "Woensdag",
+    "timeOfDay": "Avond"
+  }
+]

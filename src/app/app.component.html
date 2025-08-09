@@ -1,0 +1,14 @@
+ <div class="app-container manropefont">
+      <!-- Your main livestream content -->
+      <div class="main-content">
+        <!-- Your livestream UI goes here -->
+      </div>
+
+      <!-- Artist Overlay -->
+      <app-artist-overlay 
+        #artistOverlay
+        [showDuration]="5000"
+        [hideDuration]="2000"
+        [artistData]="upcomingArtists">
+      </app-artist-overlay>
+    </div>

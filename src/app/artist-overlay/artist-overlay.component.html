@@ -1,0 +1,38 @@
+<div class="overlay-container" [class.slide-out]="!isVisible">
+  <!-- Venue Logo Section -->
+  <div class="venue-logo">
+    <img 
+      *ngIf="currentArtist.venueLogo" 
+      [src]="currentArtist.venueLogo" 
+      alt="Venue Logo"
+      (error)="onImageError($event, 'logo')">
+    <span *ngIf="!currentArtist.venueLogo" class="placeholder">VENUE LOGO</span>
+  </div>
+
+  <!-- Artist Section -->
+  <div class="artist-section">
+    <div class="upcoming-label">Kermis 2025</div>
+    
+    <div class="artist-image glow-effect">
+      <img 
+        *ngIf="currentArtist.image" 
+        [src]="currentArtist.image" 
+        [alt]="currentArtist.name"
+        (error)="onImageError($event, 'artist')">
+      <span *ngIf="!currentArtist.image" class="placeholder">ARTIST PHOTO</span>
+    </div>
+    
+    <div class="artist-name">
+      {{ currentArtist.name }}
+    </div>
+    
+    <div class="performance-info">
+      <div class="date-info">
+        {{ currentArtist.date }}
+      </div>
+      <div class="time-info">
+        {{ formattedTimeOfDay }}
+      </div>
+    </div>
+  </div>
+</div>
